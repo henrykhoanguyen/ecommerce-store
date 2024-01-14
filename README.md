@@ -2,7 +2,26 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies needed for this project
+
+```bash
+npm install
+```
+
+Second, install prisma
+
+```bash
+npm install prisma --save-dev
+```
+
+Then, create an .env file and populate these variables
+
+```
+# http://localhost:3000/api/<Encrypted URI>
+NEXT_PUBLIC_API_URL=
+```
+
+Finally, run the development server:
 
 ```bash
 npm run dev
