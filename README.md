@@ -8,12 +8,6 @@ First, install dependencies needed for this project
 npm install
 ```
 
-Second, install prisma
-
-```bash
-npm install prisma --save-dev
-```
-
 Then, create an .env file and populate these variables
 
 ```
